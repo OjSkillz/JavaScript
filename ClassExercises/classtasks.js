@@ -74,9 +74,9 @@ console.log(title + " by " + author);
 //8.
 
 const profile = {name: "Sam", age: 40, profession: "Engineer"};
-const { name, age } = profile;
+const { name : a, age: b } = profile;
 
 console.log("\n8.");
-console.log(name);
-console.log(age);
+console.log(a);
+console.log(b);
 
